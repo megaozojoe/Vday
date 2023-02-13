@@ -21,7 +21,8 @@ button{
 	margin-left: 150px;
 }
 .fit-picture{
-	width:50%;
+	justify:center;
+	width:80%;
 }
 /*
 this changes the confetti to be on the top of the screen!
