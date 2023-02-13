@@ -9,16 +9,20 @@
 		
 	</head>
 	<body>
-	
+	<script class="confetti" src="confetti.js"></script>
+	<script src="index.js"></script>
 		<!--This first div will be for the text and maybe an image -->
 		<div>
 			<h1>Will you be my Valentine?</h1>
 		</div>
 		
 		<div id="Btns">
-			<button class="yBtn" id="yesBtn">Yes :)</button>
-			<button class="noBtn" id="noButton">No :(</button>
+			
+			<button onclick="startConfetti();show()" class="yBtn" id="yesBtn">Yes :)</button>
+			<button onclick="stopConfetti();hide()" class="noBtn" id="noButton">No :(</button>
+			<p>
+			<img class="fit-picture" id="image" src=""/>
+			</p>
 		</div>
-		<!--<script src="js/index.js"></script> -->
 	</body>
 </html>
